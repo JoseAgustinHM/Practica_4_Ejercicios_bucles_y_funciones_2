@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <script>
+        /*Escribir un programa que lea 10 notas de alumnos
+        y nos informe cuántos tienen notas mayores o iguales
+        a 7 y cuántas menores.*/
+        let vari = 0;
+        let cantidad = 0;
+        let cantidad1 = 0;
+
+        while (vari < 10) {
+            let nota = prompt("Dime la nota");
+            if (nota >= 7) {
+                cantidad = cantidad + 1;
+            } else {
+                cantidad1 = cantidad1 + 1;
+            }
+            vari = vari + 1;
+        }
+
+        document.write ("Las notas que son mayores o iguales que siete son: <strong>" + cantidad + "</strong><br>");
+        document.write ("Las notas que son menores que son son: <strong>" + cantidad1 + "</strong>");
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+</head>
+<body>
+    <script>
+        /*Elaborar una función que reciba
+        tres enteros y retorne el promedio.*/
+        let num1 = Number(prompt("Ingresa un número")), num2 = Number(prompt("Ingresa otro número")), num3 = Number(prompt("Ingresa un número más"));
+        let media;
+        let suma;
+        function promedio (sumando1, sumando2, sumando3){
+            suma = sumando1 + sumando2 + sumando3;
+            media = suma / 3;
+            document.write("El promedio es: <strong>" + media + "</strong>");
+        }
+        promedio(num1, num2, num3);
+    </script>
+</body>
+</html>
